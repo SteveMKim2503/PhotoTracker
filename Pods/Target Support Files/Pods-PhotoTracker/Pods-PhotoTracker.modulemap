@@ -1,0 +1,6 @@
+framework module Pods_PhotoTracker {
+  umbrella header "Pods-PhotoTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

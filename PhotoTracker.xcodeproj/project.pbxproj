@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D1EFE84CA5587D5CAFB832 /* Pods_PhotoTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07476335B1F23B59DD7456E0 /* Pods_PhotoTrackerUITests.framework */; };
+		4772FAB4C0B92361BDD6309B /* Pods_PhotoTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A2E8A231566B53300D7AA7 /* Pods_PhotoTrackerTests.framework */; };
 		4DB1D41920590F6E00805D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1D41820590F6E00805D4C /* AppDelegate.swift */; };
 		4DB1D41B20590F6E00805D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1D41A20590F6E00805D4C /* ViewController.swift */; };
 		4DB1D41E20590F6E00805D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB1D41C20590F6E00805D4C /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		4DB1D42620590F6E00805D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB1D42420590F6E00805D4C /* LaunchScreen.storyboard */; };
 		4DB1D43120590F6F00805D4C /* PhotoTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1D43020590F6F00805D4C /* PhotoTrackerTests.swift */; };
 		4DB1D43C20590F6F00805D4C /* PhotoTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1D43B20590F6F00805D4C /* PhotoTrackerUITests.swift */; };
+		ED6FC99644E1F63866F52546 /* Pods_PhotoTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFCC190082942E989E1827D /* Pods_PhotoTracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07476335B1F23B59DD7456E0 /* Pods_PhotoTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C84FAAFAD0463205A9B288 /* Pods-PhotoTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoTrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoTrackerTests/Pods-PhotoTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		4DB1D41520590F6E00805D4C /* PhotoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB1D41820590F6E00805D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DB1D41A20590F6E00805D4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		4DB1D43720590F6F00805D4C /* PhotoTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB1D43B20590F6F00805D4C /* PhotoTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTrackerUITests.swift; sourceTree = "<group>"; };
 		4DB1D43D20590F6F00805D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EFCC190082942E989E1827D /* Pods_PhotoTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		848515F5049AB10FA4550F6A /* Pods-PhotoTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoTracker/Pods-PhotoTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		92CB6A749D66B0AAB71318D0 /* Pods-PhotoTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoTrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoTrackerUITests/Pods-PhotoTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A2E8A231566B53300D7AA7 /* Pods_PhotoTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9625DCC92F40A207122CAF1E /* Pods-PhotoTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoTracker/Pods-PhotoTracker.release.xcconfig"; sourceTree = "<group>"; };
+		B053F3F91D9D5BBB7A951A33 /* Pods-PhotoTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoTrackerTests/Pods-PhotoTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2BCBC0BA1AB5E855C37E494 /* Pods-PhotoTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoTrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoTrackerUITests/Pods-PhotoTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6FC99644E1F63866F52546 /* Pods_PhotoTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4772FAB4C0B92361BDD6309B /* Pods_PhotoTrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D1EFE84CA5587D5CAFB832 /* Pods_PhotoTrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		301F6FAD9A7C2A34AABBB218 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				848515F5049AB10FA4550F6A /* Pods-PhotoTracker.debug.xcconfig */,
+				9625DCC92F40A207122CAF1E /* Pods-PhotoTracker.release.xcconfig */,
+				B053F3F91D9D5BBB7A951A33 /* Pods-PhotoTrackerTests.debug.xcconfig */,
+				25C84FAAFAD0463205A9B288 /* Pods-PhotoTrackerTests.release.xcconfig */,
+				92CB6A749D66B0AAB71318D0 /* Pods-PhotoTrackerUITests.debug.xcconfig */,
+				C2BCBC0BA1AB5E855C37E494 /* Pods-PhotoTrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4DB1D40C20590F6E00805D4C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				4DB1D42F20590F6F00805D4C /* PhotoTrackerTests */,
 				4DB1D43A20590F6F00805D4C /* PhotoTrackerUITests */,
 				4DB1D41620590F6E00805D4C /* Products */,
+				301F6FAD9A7C2A34AABBB218 /* Pods */,
+				9C852956A02A792FEAAEB6A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = PhotoTrackerUITests;
 			sourceTree = "<group>";
 		};
+		9C852956A02A792FEAAEB6A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EFCC190082942E989E1827D /* Pods_PhotoTracker.framework */,
+				93A2E8A231566B53300D7AA7 /* Pods_PhotoTrackerTests.framework */,
+				07476335B1F23B59DD7456E0 /* Pods_PhotoTrackerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DB1D44020590F6F00805D4C /* Build configuration list for PBXNativeTarget "PhotoTracker" */;
 			buildPhases = (
+				AAD96BF5C9633536D64BC1C4 /* [CP] Check Pods Manifest.lock */,
 				4DB1D41120590F6E00805D4C /* Sources */,
 				4DB1D41220590F6E00805D4C /* Frameworks */,
 				4DB1D41320590F6E00805D4C /* Resources */,
+				17C2EF1836C7B15B3FDC0E71 /* [CP] Embed Pods Frameworks */,
+				A20DA0C2115D5A60F5E1DB2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DB1D44320590F6F00805D4C /* Build configuration list for PBXNativeTarget "PhotoTrackerTests" */;
 			buildPhases = (
+				4E31B7FBB801B8C3A25AE76B /* [CP] Check Pods Manifest.lock */,
 				4DB1D42820590F6F00805D4C /* Sources */,
 				4DB1D42920590F6F00805D4C /* Frameworks */,
 				4DB1D42A20590F6F00805D4C /* Resources */,
+				8ADFBC021279B8FE7893E442 /* [CP] Embed Pods Frameworks */,
+				264EA20340FD95CABF576C1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DB1D44620590F6F00805D4C /* Build configuration list for PBXNativeTarget "PhotoTrackerUITests" */;
 			buildPhases = (
+				F048DC0520C7CA8C7EA6E57F /* [CP] Check Pods Manifest.lock */,
 				4DB1D43320590F6F00805D4C /* Sources */,
 				4DB1D43420590F6F00805D4C /* Frameworks */,
 				4DB1D43520590F6F00805D4C /* Resources */,
+				6D0F7EEA9E08CD8F0782C9E9 /* [CP] Embed Pods Frameworks */,
+				2C6A8488E68CDE730CB82212 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,7 +245,7 @@
 				TargetAttributes = {
 					4DB1D41420590F6E00805D4C = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					4DB1D42B20590F6F00805D4C = {
 						CreatedOnToolsVersion = 9.2;
@@ -256,6 +305,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17C2EF1836C7B15B3FDC0E71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PhotoTracker/Pods-PhotoTracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TLPhotoPicker/TLPhotoPicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TLPhotoPicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoTracker/Pods-PhotoTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		264EA20340FD95CABF576C1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoTrackerTests/Pods-PhotoTrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C6A8488E68CDE730CB82212 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoTrackerUITests/Pods-PhotoTrackerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E31B7FBB801B8C3A25AE76B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D0F7EEA9E08CD8F0782C9E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoTrackerUITests/Pods-PhotoTrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ADFBC021279B8FE7893E442 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoTrackerTests/Pods-PhotoTrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20DA0C2115D5A60F5E1DB2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoTracker/Pods-PhotoTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD96BF5C9633536D64BC1C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F048DC0520C7CA8C7EA6E57F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DB1D41120590F6E00805D4C /* Sources */ = {
@@ -428,14 +627,21 @@
 		};
 		4DB1D44120590F6F00805D4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848515F5049AB10FA4550F6A /* Pods-PhotoTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L689JFEDEU;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/**",
+				);
 				INFOPLIST_FILE = PhotoTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SteveMK.PhotoTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,14 +649,21 @@
 		};
 		4DB1D44220590F6F00805D4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9625DCC92F40A207122CAF1E /* Pods-PhotoTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L689JFEDEU;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/**",
+				);
 				INFOPLIST_FILE = PhotoTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SteveMK.PhotoTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +671,7 @@
 		};
 		4DB1D44420590F6F00805D4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B053F3F91D9D5BBB7A951A33 /* Pods-PhotoTrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +689,7 @@
 		};
 		4DB1D44520590F6F00805D4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C84FAAFAD0463205A9B288 /* Pods-PhotoTrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +707,7 @@
 		};
 		4DB1D44720590F6F00805D4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CB6A749D66B0AAB71318D0 /* Pods-PhotoTrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +724,7 @@
 		};
 		4DB1D44820590F6F00805D4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2BCBC0BA1AB5E855C37E494 /* Pods-PhotoTrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

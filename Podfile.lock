@@ -1,0 +1,12 @@
+PODS:
+  - TLPhotoPicker (1.5.4)
+
+DEPENDENCIES:
+  - TLPhotoPicker
+
+SPEC CHECKSUMS:
+  TLPhotoPicker: 23cf96367d0aa5cfe35d324be1f2c0db76d72c32
+
+PODFILE CHECKSUM: 43cda17eb97918cfed34777c4a96ff4f97ef6f9a
+
+COCOAPODS: 1.4.0

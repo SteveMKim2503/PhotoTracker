@@ -1,0 +1,6 @@
+framework module Pods_PhotoTrackerTests {
+  umbrella header "Pods-PhotoTrackerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
